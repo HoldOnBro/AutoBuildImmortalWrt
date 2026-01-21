@@ -64,7 +64,7 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-app-store"
 PACKAGES="$PACKAGES luci-app-turboacc"
 # PACKAGES="$PACKAGES luci-app-bandix"
-PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn luci-app-passwall2 luci-app-ssr-plus luci-app-lucky"
+PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn luci-i18n-passwall2-zh-cn luci-app-ssr-plus luci-app-lucky"
 # IPTV 流媒体转发服务器 - rtp2httpd by stackia
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-rtp2httpd luci-i18n-rtp2httpd-zh-cn"
 # 任务设置
