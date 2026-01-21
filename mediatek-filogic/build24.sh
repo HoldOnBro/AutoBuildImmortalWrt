@@ -49,8 +49,8 @@ PACKAGES=""
 PACKAGES="$PACKAGES curl luci luci-i18n-base-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
-PACKAGES="$PACKAGES luci-app-argon-config"
-PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+# 当luci-app-advancedplus插件开启时 需排除冲突项 luci-app-argon-config和luci-i18n-argon-config-zh-cn 减号代表排除
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus luci-i18n-advancedplus-zh-cn -luci-app-argon-config -luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-app-upnp luci-i18n-upnp-zh-cn"
 PACKAGES="$PACKAGES luci-app-wol luci-i18n-wol-zh-cn"
@@ -64,7 +64,11 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-app-store"
 PACKAGES="$PACKAGES luci-app-turboacc"
 # PACKAGES="$PACKAGES luci-app-bandix"
-PACKAGES="$PACKAGES luci-app-nikki luci-app-passwall2 luci-app-ssr-plus luci-app-lucky luci-app-taskplan luci-app-rtp2httpd"
+PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn luci-app-passwall2 luci-app-ssr-plus luci-app-lucky"
+# IPTV 流媒体转发服务器 - rtp2httpd by stackia
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-rtp2httpd luci-i18n-rtp2httpd-zh-cn"
+# 任务设置
+#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-taskplan luci-i18n-taskplan-zh-cn"
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
