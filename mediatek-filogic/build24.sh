@@ -64,6 +64,7 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-app-store"
 PACKAGES="$PACKAGES luci-app-turboacc"
 # PACKAGES="$PACKAGES luci-app-bandix"
+PACKAGES="$PACKAGES luci-app-advancedplus luci-app-nikki luci-app-passwall2 luci-app-lucky luci-app-taskplan luci-app-rtp2httpd"
 # 文件管理器
 PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
